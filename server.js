@@ -18,10 +18,14 @@ app.get('/characters', function(req, res){
 
 app.post('/characters', function(req, res){
   const updated_characters = JSON.stringify({"characters": req.body})
+  console.log(`request body is`, req.body)
+  console.log(`characters to store is`, updated_characters)
+
   fs.writeFile('./characters.json', updated_characters, (err) => {
     if (err) console.log(err)
     console.log('Successfully wrote to file')
   })
+  res.send("all good")
 })
 
 app.listen(3000, function(){
