@@ -1,0 +1,13 @@
+Project
+☐ Remove firebase from both client and server side
+☐ Delete firebase project in console
+
+Server
+☐ Create new firebase project
+☐ Investigate serving the api as static site
+☐ Deploy to Heroku if not possible
+
+Client
+☐ Create new firebase project
+☐ Point to local server in dev, public server in prod
+☐ Deploy
