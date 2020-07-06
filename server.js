@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 3000
 const express = require('express')
 const app = express()
 const cors = require('cors')
@@ -26,7 +27,8 @@ app.post('/characters', function(req, res){
   res.send({"status": "success", "data": updated_characters})
 })
 
-app.listen(3000, function(){
-  console.log('App Running on port 3000')
-})
-
+if (!process.env.FIREBASE_CONFIG){
+  app.listen(PORT, function(){
+    console.log('App Running on', PORT)
+  })
+}
