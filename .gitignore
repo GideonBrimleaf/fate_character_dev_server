@@ -2,9 +2,4 @@
 package-lock.json
 
 characters.json
-
-.firebaserc
-firebase.json
-.eslintrc.json
-.firebase/
 things.todo
