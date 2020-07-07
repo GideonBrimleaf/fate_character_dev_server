@@ -5,6 +5,7 @@ const cors = require('cors')
 const characters = require('./characters.json')
 const bodyParser = require('body-parser')
 const fs = require('fs')
+require('dotenv').config()
 
 app.use(cors())
 app.use(bodyParser.json())
@@ -30,5 +31,6 @@ app.post('/characters', function(req, res){
 if (!process.env.FIREBASE_CONFIG){
   app.listen(PORT, function(){
     console.log('App Running on', PORT)
+    console.log(process.env.CHRIS_SUPER_SECRET)
   })
 }

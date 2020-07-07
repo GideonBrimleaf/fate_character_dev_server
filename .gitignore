@@ -3,3 +3,5 @@ package-lock.json
 
 characters.json
 things.todo
+
+.env
