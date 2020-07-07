@@ -31,6 +31,5 @@ app.post('/characters', function(req, res){
 if (!process.env.FIREBASE_CONFIG){
   app.listen(PORT, function(){
     console.log('App Running on', PORT)
-    console.log(process.env.CHRIS_SUPER_SECRET)
   })
 }

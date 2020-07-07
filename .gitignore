@@ -5,3 +5,6 @@ characters.json
 things.todo
 
 .env
+
+.firebaserc
+firebase.json
