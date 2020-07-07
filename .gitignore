@@ -1,7 +1,7 @@
 /node_modules
 package-lock.json
+npm-debug.log
 
-characters.json
 things.todo
 
 .env
