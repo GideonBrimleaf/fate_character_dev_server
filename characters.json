@@ -1,1 +1,61 @@
-{"characters":[{"id":1,"name":"Gideon Brimleaf","highConcept":"Tiefling Black Metal Bard","trouble":"Doomed to be cursed by dark forces"},{"id":2,"name":"Tala Fernweaver","highConcept":"Draws on the powers of gods and demons","trouble":"Doesn't know when to quit"}]}
+{
+  "characters": [
+      {
+          "id": 1,
+          "name": "Gideon Brimleaf",
+          "highConcept": "Tiefling Black Metal Bard",
+          "trouble": "Doomed to be cursed by dark forces",
+          "relationship": "Will do anything for Tala",
+          "aspectOne": "Trained under the Great Wizard Quillon",
+          "aspectTwo": "Unwavering confidence in my own abilities",
+          "approaches": {
+              "careful": "+0",
+              "clever": "+1",
+              "flashy": "+4",
+              "forceful": "+1",
+              "quick": "+2",
+              "sneaky": "+2"
+          },
+          "stunts": [
+              "Bardic inspiration: Grant an ally a +2 boost to their next check when I’m not actively engaged with a foe", 
+              "Enthralling performance: Once per session, charm an entire audience to do as you please",
+              "Grant a +2 bonus when I flashily attack a foe using magic from a musical instrument, improvised or otherwise"
+          ],
+          "consequences": {
+              "mild": "",
+              "moderate": "",
+              "severe": "" 
+          },
+          "refresh": 3
+      },
+      {
+          "id": 2,
+          "name": "Tala Fernweaver",
+          "highConcept": "Draws on the powers of gods and demons",
+          "trouble": "Doesn't know when to quit",
+          "relationship": "Gideon is my rock",
+          "aspectOne": "I wield my will like a weapon",
+          "aspectTwo": "Honed reactions",
+          "approaches": {
+              "careful": "+2",
+              "clever": "+2",
+              "flashy": "+1",
+              "forceful": "+3",
+              "quick": "+2",
+              "sneaky": "+0"
+          },
+          "stunts": [
+              "Add +2 to a forceful attack with a flurry of blows", 
+              "Once per session can stun an enemy with a forceful attack",
+              "When you carefully gather your thoughts get a +2 bonus to the action being prepared",
+              "Add +2 to quickly dodge from danger"
+          ],
+          "consequences": {
+              "mild": "",
+              "moderate": "",
+              "severe": "" 
+          },
+          "refresh": 2
+      }
+  ]
+}
